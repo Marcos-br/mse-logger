@@ -22,6 +22,11 @@ def funcao03(payload: Dict[str, Union[str, int]]) -> Dict[str, Union[str, int]]:
 def funcao05(a: int, b: int) -> int:
     return a / b
 
+@mse_logger
+def interna()
+    def funcaoExterna():
+        pass
+
 
 if __name__ == "__main__":
     funcao01("a", 3)
